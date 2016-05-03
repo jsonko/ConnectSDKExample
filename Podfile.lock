@@ -1,0 +1,26 @@
+PODS:
+  - ConnectSDK (1.6.0):
+    - ConnectSDK/Core (= 1.6.0)
+    - ConnectSDK/GoogleCast (= 1.6.0)
+    - ConnectSDK/no-arc (= 1.6.0)
+  - ConnectSDK/Core (1.6.0):
+    - ConnectSDK/no-arc
+  - ConnectSDK/GoogleCast (1.6.0):
+    - ConnectSDK/Core
+    - google-cast-sdk (= 2.7.1)
+  - ConnectSDK/no-arc (1.6.0)
+  - google-cast-sdk (2.7.1):
+    - google-cast-sdk/Assets (= 2.7.1)
+    - google-cast-sdk/Core (= 2.7.1)
+  - google-cast-sdk/Assets (2.7.1):
+    - google-cast-sdk/Core
+  - google-cast-sdk/Core (2.7.1)
+
+DEPENDENCIES:
+  - ConnectSDK
+
+SPEC CHECKSUMS:
+  ConnectSDK: f6159b056ec53943df82c4d541a9bfae21592be4
+  google-cast-sdk: 9c98a8fbe8277277ab01a3318ee965c9aef3d4c9
+
+COCOAPODS: 0.39.0
